@@ -49,9 +49,13 @@ git add . ====> guarda TODO lo que esta en Changes a Staged Changes
 git log ===> Historial de los commit. QUIEN lo hizo, CUANDO, QUE y el codigo (hash) del cada commit.
 git log --oneline ===> Historial resumido
 
+---------------------------------------------------------------------------------------------
 
-
-
+git branch ===> Vemos nuestras ramas
+git branch 'NOMBRE' ===> CREAMOS una nueva rama
+git checkout 'NOMBRE' ===> CAMBIAMOS a la rama indicada
+git checkout -b 'NOMBRE' ===> CREAMOS y CAMBIAMOS a la rama creada
+git branch -d 'NOMBRE' ===> ELIMINAMOS una rama
 
 
 
