@@ -1,0 +1,63 @@
+Para configurar lo primero ejecutamos estos comandos en la TERMINAL
+git config --global user.name 'NOMBRE' ---> DEFINIMOS NUESTRO NAME
+git config --global user.email 'EMAIL' --> DEFINIMOS EL MAIL
+----------------------------------------------------------------------------------------------
+Para empezar a trabajar recomendacion tener la carpeta vacia o usar el .gitignore.
+Asi tenemos todo preparado para arrancar
+Con un archivo .gitignore podemos elegir que archivo queremos que git ignore
+
+ls =========> para ver los archivos que estamos trabajando en TERMINAL
+ls -a =========>  para ver archivos ocultos
+----------------------------------------------------------------------------------------------
+
+git init =========> para cargar el repositorio --> la direccion donde estamos (master) => una rama
+
+git config --list =========> listado de las configuraciones del proyecto git 
+git config --global --list =========> listado de config. global
+
+git status =========> el estado de nuestro repositorio: DONDE estamos, QUE nos falta hacer y QUE PODEMOS hacer.
+
+git add <file> =========> agregamos el archivo al repositorio/git (pasa a tener una A en vez de una U)
+
+git rm --cached <file> =======> para sacarlo
+
+
+VIDEO EN HORA 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
