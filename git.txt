@@ -1,3 +1,5 @@
+git --help ===> vemos todos los comandos
+
 Para configurar lo primero ejecutamos estos comandos en la TERMINAL
 git config --global user.name 'NOMBRE' ---> DEFINIMOS NUESTRO NAME
 git config --global user.email 'EMAIL' --> DEFINIMOS EL MAIL
@@ -22,7 +24,27 @@ git add <file> =========> agregamos el archivo al repositorio/git (pasa a tener 
 git rm --cached <file> =======> para sacarlo
 
 
-VIDEO EN HORA 1
+git commit -m 'Agregamos el archivo' prueba_git.py ==> commiteamos el archivo
+
+------------------------------------------------------------------------------------------------
+
+AL MODIFICAR EL PROGRAMA/archivo
+
+con git add agregamos los cambios hechos
+y con:
+git restore <file> =====> removemos los cambios (CONTROL + Z)
+
+==============================================================
+
+En SOURCE CONTROL-
+
+Changes: Lo ultimo que modificamos, nuestra area de trabajo, lo que todavia no le hicimos add
+Staged Changes: Lo que tenemos agregado hasta el momento 'el ultimo check point', lo que ya le hicimos add
+
+git add . ====> guarda TODO lo que esta en Changes a Staged Changes 
+-----------------------------------------------------------------------------------------
+
+git log ===> Historial de los commit. QUIEN lo hizo, CUANDO, QUE y el codigo (hash) del cada commit.
 
 
 
