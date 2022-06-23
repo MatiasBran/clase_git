@@ -57,8 +57,16 @@ git checkout 'NOMBRE' ===> CAMBIAMOS a la rama indicada
 git checkout -b 'NOMBRE' ===> CREAMOS y CAMBIAMOS a la rama creada
 git branch -d 'NOMBRE' ===> ELIMINAMOS una rama
 
+git merge 'NOMBRE' ===> UNIMOS la rama indicada a la rama en la que estamos parados
 
+-------------------------------------------------------------------
+GITHUB:
 
+INDICACIONES QUE NOS DA github
+
+git branch -M main ===> renombramos la master (estando ahi parados) para github
+git remote add origin 'LINK' ===> linkeamos nuestro local con el link del repositorio
+git push -u origin main ===> lo subimos a ese link (origin) desde esta rama (main)
 
 
 
