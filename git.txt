@@ -24,7 +24,9 @@ git add <file> =========> agregamos el archivo al repositorio/git (pasa a tener 
 git rm --cached <file> =======> para sacarlo
 
 
-git commit -m 'Agregamos el archivo' prueba_git.py ==> commiteamos el archivo
+git commit -m 'Agregamos el archivo' prueba_git.py ====> commiteamos el archivo
+git commit --amend --no-edit =====> USA EN LOCAL NO EN NUBE => Por si se nos paso un detalle y no queremos crear un commit nuevo, con amend 
+agregamos el pequeño cambio al ultimo commit que hicimos y con --no-edit dejamos el mensaje tal cual esta
 
 ------------------------------------------------------------------------------------------------
 
@@ -32,7 +34,7 @@ AL MODIFICAR EL PROGRAMA/archivo
 
 con git add agregamos los cambios hechos
 y con:
-git restore <file> =====> removemos los cambios (CONTROL + Z)
+git restore --staged <file> =====> removemos los cambios (CONTROL + Z)
 
 ==============================================================
 
@@ -45,7 +47,7 @@ git add . ====> guarda TODO lo que esta en Changes a Staged Changes
 -----------------------------------------------------------------------------------------
 
 git log ===> Historial de los commit. QUIEN lo hizo, CUANDO, QUE y el codigo (hash) del cada commit.
-
+git log --oneline ===> Historial resumido
 
 
 
